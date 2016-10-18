@@ -1,3 +1,59 @@
-p {
-  color:red;
-  }
+
+  
+html {
+   background-image: url("hands-coffee-cup-apple.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size:cover;
+}
+
+body {
+	background-color: white;
+	width:850px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 100px;
+	padding: 15px;
+	
+
+	border-radius:25px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+	
+	opacity: 0.80;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+ 
+}
+
+body:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */	
+}
+
+#body-contact {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+#body-info {
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+
+#body-worktitle {
+		margin-top: 30px;
+		font-size: 32px;
+		text-align: center;
+}
+
+.dates {
+	float: right;
+}
+	
+
